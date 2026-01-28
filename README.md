@@ -81,8 +81,3 @@ Este proyecto tiene como objetivo el diseño y desarrollo de un sistema de monit
 - **Frontend**: La página web mostrará los datos de los sensores de forma visual mediante **Chart.js** para gráficos interactivos (temperatura, humedad y actividad).
 - Los datos históricos y en tiempo real se presentarán con una **línea de tiempo** o **gráficos de barras**.
 - Las **imágenes capturadas** por la cámara se presentarán como una galería o sección específica en la página.
-
----
-
-Este es el formato Markdown del proyecto "RaspiBat". Puedes copiar y pegar este texto en tu archivo `README.md` de GitHub o cualquier otro documento compatible con Markdown.
-
