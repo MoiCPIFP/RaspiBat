@@ -1,7 +1,7 @@
 # RaspiBat
 ## Proyecto de innovación
 
-![Imagen RaspiBat]()
+![Imagen RaspiBat](RaspiBat.png)
 
 ### Introducción
 
