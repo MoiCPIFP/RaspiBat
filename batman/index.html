@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Raspibat project - Sensor DHT22</title>
+</head>
+<body>
+    <header class="cabezera">
+        <div class="cabezera-imagen">
+            <img src="Imagenes/RaspiBat.png" alt="Imagen RaspiBat.png" class="imagen-Logo">
+            <div class="cabezera-texto">
+                <h1>Raspibat</h1>
+                <p>Sensor DHT22 · Temperatura y humedad en tiempo real</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="Contenido">
+            <section class="Explicacion-proyecto">
+                <p>
+                    <b>RaspiBat</b> es un proyecto de IoT basado en Raspberry Pi 
+                    que monitoriza temperatura y humedad con un sensor DHT22 
+                    y envía los datos cada 10 minutos a Firebase.
+                </p>
+                <p>
+                    Incluye una cámara que puede capturar fotos bajo demanda 
+                    desde esta web o de forma automática al detectar movimiento 
+                    con un sensor PIR.
+                </p>
+                <p>
+                    Las imágenes se suben a Cloudinary y se muestran aquí 
+                    en la galería, junto con el gráfico en tiempo real y 
+                    el listado de las últimas lecturas del sensor.
+                </p>
+                <p>
+                    La ubicación del dispositivo se visualiza en el mapa,
+                    y el acceso a la captura en vivo está protegido 
+                    con inicio de sesión.
+                </p>
+                <p>
+                    Todo el sistema está desplegado en la nube 
+                    (Firebase Hosting y Realtime Database) para consultar 
+                    los datos desde cualquier dispositivo.
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
